@@ -1,0 +1,13 @@
+{% extends "base.html" %}  
+{% import "bootstrap/wtf.html" as wtf %}  
+  
+{% block title %}登入頁面{% endblock %}
+  
+{% block content %}
+<div class="container">
+    <h1>登入</h1>
+    <h2>Welcome To My Blog</h2>
+    {{ wtf.quick_form(form) }}
+</div>  
+{% endblock content %}
+

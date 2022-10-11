@@ -1,0 +1,29 @@
+{% extends "base.html" %}  
+{% import "bootstrap/wtf.html" as wtf %}  
+  
+{% block title %}登入頁面{% endblock %}
+  
+{% block content %}
+<form method="POST">
+
+  <label style="color:orange;" for="coupon">優待券金額: </label>
+  <input type="number" class="form-control" id="coupon" name="coupon"><br><br>
+
+  <label style="color:DodgerBlue;" for="item">套餐種類數量: </label>
+  <input type="number" class="form-control" id="item" name="item"><br><br>
+
+  <label style="color:DodgerBlue;" for="name">套餐的名稱:</label>
+  <input type="text" class="form-control" id="name" name="name"><br><br>  
+
+  <label style="color:DodgerBlue;" for="price">套餐價格分別是:</label>
+  <input type="text" class="form-control" id="price" name="price"><br><br>
+
+  <label style="color:DodgerBlue;" for="amount">套餐份量分別是:</label>
+  <input type="text" class="form-control" id="amount" name="amount"><br><br>
+
+  <button type="submit" class="btn btn-primary">Go</button>
+
+
+</form>
+{% endblock content %}
+

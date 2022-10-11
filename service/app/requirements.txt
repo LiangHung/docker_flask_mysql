@@ -1,0 +1,15 @@
+flask
+flask_wtf
+flask_bootstrap
+flask_script
+flask_sqlalchemy
+flask_migrate
+flask_mail
+flask_login
+mysql-connector
+mysql-connector-python
+mysql-connector-python-rf
+wtforms
+email_validator
+PyMySQL
+
